@@ -8,6 +8,7 @@ import { Counter } from './components/Counter';
 import './custom.css'
 import FetchApiPractice from './components/FetchApiPractice';
 import TextBoxOnChangeEventHandler from './components/TextBoxOnChangeEventHandler';
+import ReactFragmentDemo from './components/Samples/ReactFragmentDemo';
 
 export default class App extends Component {
     static displayName = App.name;
@@ -20,6 +21,7 @@ export default class App extends Component {
                 <Route path='/fetch-data' component={FetchData} />
                 <Route path='/FetchApiPractice' component={FetchApiPractice} />
                 <Route path='/TextBoxOnChangeEventHandler' component={TextBoxOnChangeEventHandler} /> 
+                <Route path='/ReactFragmentDemo' component={ReactFragmentDemo} />
             </Layout>
         );
     }
